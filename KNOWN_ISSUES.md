@@ -1,0 +1,16 @@
+### Known issues
+- [feature] — add virtualization
+  - handle the table async data
+    - add table loading and error state
+- [feature] — add filtering and sorting for table
+- [feature] — format the cells in the Hierarchy table
+- [feature] — correctly handle the app routes
+  - add error boundaries
+- [feature] — add data fetching 
+  - add server and implement useQuery and tRPC
+- [issue] — delegate the click event from heirarchy table instead of adding an event to each action cell
+- [issue] — tree data storing is not efficient
+- [issue] — "isEvenRow" triggers rerender — is this necessary ?
+- [feature] — add delete row confirmation popup
+- [feature] — update the visual
+  - add transitions, paddings and so on
